@@ -7,8 +7,16 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/btnNe"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/colorAccent"
         android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to next screen" />
 
 </FrameLayout>
